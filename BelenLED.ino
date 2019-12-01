@@ -56,9 +56,6 @@ void setup() {
 }
 
 
-// List of patterns to cycle through.  Each is defined as a separate function below.
-typedef void (*SimplePatternList[])();
-SimplePatternList gPatterns = { rainbow, rainbowWithGlitter, confetti, sinelon};
 
 
 void loop() {
